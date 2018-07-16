@@ -43,9 +43,9 @@ module API
               picture:params[:picture]
             })
             if update_dish
-              { 'id':params[:id], 'price':params[:price], 'picture':params[:picture]}
+              { 'id': params[:id], 'price':params[:price], 'picture': params[:picture]}
             else
-              { 'error':update_dish.errors.messages }
+              { 'error': update_dish.errors.messages }
             end
           end
         end

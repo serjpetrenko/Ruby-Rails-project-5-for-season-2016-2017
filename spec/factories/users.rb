@@ -3,6 +3,6 @@ FactoryBot.define do
     first_name "name"
     last_name "last name"
     email "email@gmail.com"
-    password_digest "password"
+    password_digest "Test1234!"
   end
 end
